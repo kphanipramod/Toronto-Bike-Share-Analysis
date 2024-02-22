@@ -9,6 +9,7 @@ To generate insights for maintenance and management (e.g. allocating bikes, iden
 Bike Share Toronto was designed to allow users to make short trips around town. The sturdy-framed bikes are available at any docking station in the city. The bikes can be taken from any station and returned to any station in the bike share system. There are 6,850 bikes and 625 stations are available throughout Toronto. A station is the strip of bikes that are available around the city, placed based on population and transport needs.
 
 There are two major user categories in the dataset:
+
 a) Annual Member: including Annual 30 Member (unlimited trips under 30 min) per year, and Annual 45 Member (unlimited trips under 45 min).
 
 b) Casual Member: including Single Trip Passes, Day Passes and 3-Day Passes.
