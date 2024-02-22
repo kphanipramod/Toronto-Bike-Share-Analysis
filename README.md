@@ -21,9 +21,14 @@ c) Daily weather data of 2021 at Toronto City weather station from Govt of Canad
 
 ## Results & Key Findings
 a) 3,474,290 trips in total
+
 b) Average trip duration: 1227.20 seconds (20.45 minutes)
+
 c) Average distance: 1813.00 metres
+
 d) Average speed: 2.28 m/s
+
 e) Annual Member trips: 2,075,217 (59.73%)
+
 f) Casual Member trips: 1,399,073 (40.27%)
 
