@@ -1,1 +1,180 @@
 # Toronto-Bike-Share-Analysis
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Bike Share Toronto 2021 Data Analysis</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <body>
+        <h1>Bike Share Toronto 2021 Data Analysis</h1>
+        
+        <p>
+            Bike Share Toronto was designed to allow users to make short trips around town. The sturdy-framed bikes are available at any docking station in the city. The bikes can be taken from any station and returned to any station in the bike share system.
+        </p>
+        <p>
+            There are 6,850 bikes and 625 stations are available throughout Toronto. A station is the strip of bikes that are available around the city, placed based on population and transport needs.
+        </p>
+        <p>
+            There are two major user categories in the dataset:
+        <ul>
+            <li>Annual Member: including Annual 30 Member (unlimited trips under 30 min) per year, and Annual 45 Member (unlimited trips under 45 min).</li>
+            <li>Casual Member: including Single Trip Passes, Day Passes and 3-Day Passes.</li>
+        </ul>
+        <p>    
+            Official website: <a href = "https://bikesharetoronto.com/">https://bikesharetoronto.com/</a>
+        </p>
+        
+        <h2>Quick facts</h2>
+        
+        <p>*after data cleaning</p>
+        
+        <li>3,474,290 trips in total</li>
+        <li>Average trip duration: 1227.20 seconds (20.45 minutes)</li>
+        <li>Average distance: 1813.00 metres</li>
+        <li>Average speed: 2.28 m/s</li>
+        <li>Annual Member trips: 2,075,217 (59.73%)</li>
+        <li>Casual Member trips: 1,399,073 (40.27%)</li>
+        
+        <h2>How many trips did poeple in Toronto had with Bike Share Toronto in 2021?</h2>
+        
+        <p>
+        People like to use share bike when it’s warm, while factors like sport games can also affect ridership on certain days.
+
+        <li>August had the highest ridership in 2021, while February had the lowest</li>
+        <li>Summer months in general had higher ridership</li> 
+        <li>Ridership has a positive correlation with temperature as revealed by scatter plot</li>
+
+        </p>
+   
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="visuals/byDate-bar.html" height="500" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="visuals/byDate-line.html" height="500" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="visuals/annual_temp.html" height="500" width="100%"></iframe>
+        
+        <p>
+        
+        More casual members used share bike in October and November than Annual members, while Annual members contributed to the majority of ridership in the rest of the year.
+        
+        </p>
+        
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="visuals/byMonth-bar.html" height="500" width="100%"></iframe>
+        
+        <p>
+            The monthly ridership plot revealed the impact of weather: summer definitely is the season when more people use Share Bike Toronto.
+            
+            From the daily ridership plot, we found a few outstanding "spikes" on: 05/16, 05/24, 06/05, 06/12, 07/10.
+            
+            All these days seemed to be gamedays (baseball and basketball), even though the baseball game didn't return to Rogers Centre until Jul 30.
+        </p>
+        
+        <h2>Looking into data from multiple dimensions</h2>
+        
+        <h3>Ridership by day of the week, hour of the day</h3>
+        
+        <p>
+        
+        Annual members used share bike evenly regardless of weekdays or weekend, while significantly more Casual members used share bike on weekends.
+
+        </p>
+        
+        <span style="float:right; width:50%; height: 600px">
+            <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="visuals/byHr-bar.html" height="500" align="right" ></iframe>
+        </span>
+        
+        <span style="float:right; width:50%; height: 600px">
+            <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="visuals/byWeek-bar.html" height="500" align="left" ></iframe>
+        </span>
+        
+        <h3>Trip average speed and duration</h3>
+        
+        <p>
+        Casual members used share bike much longer than Annual members for each trip on average. 
+        </p>
+        <p>
+        Peak hour of the day is 17:00, and Annual members also generated more ridership during busy hours from noon to 20:00
+        </p>
+        <p>
+        In May 2021, share bike trips had the highest average duration, especially for Casual members.
+        </p>
+        <p>
+        Share bike riders’ average trip durations are generally the same over different time of the day, except for early morning (4:00 - 9:00), when the trips’ durations are shorter, and the cycling speed is faster on average.
+        </p>
+        <p>
+        Annual members’ average speed didn’t change much over the month, while Casual members were faster in January, October and November than the rest of the year. And in general, Annual members were cycling faster than Casual members.
+        </p>
+        
+        <span style="float:right; width:50%; height: 600px">
+            <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="visuals/byMon_speed-bar.html" height="600" align="left"></iframe>
+        </span>
+        
+        <span style="float:left; width:50%; height: 600px">
+            <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="visuals/byMon_duration-bar.html" height="600" align="right"></iframe>
+        </span>
+        
+        <span style="float:right; width:50%; height: 600px">
+            <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="visuals/byHr_speed-bar.html" height="600" align="left"></iframe>
+        </span>
+        
+        <span style="float:left; width:50%; height: 600px">
+            <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="visuals/byHr_duration-bar.html" height="600" align="right"></iframe>
+        </span>
+    
+    
+    <h2>Which stations were most popular in 2021?</h2>
+        
+        <p>
+        
+        Stations on lakeshore and along side Yonge St. & Bay St. (in downtown area, south of Bloor St.) were the most popular ones in general.
+        
+        </p>
+        
+        <span style="float:left; width:100%; height: 800px">
+            <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="visuals/popular-pick-up-stations.html" height="600" width="100%"></iframe>
+        </span>
+    
+        <p>Use this interactive map to view the popularity change over months</p>
+        
+        <span style="float:left; width:100%; height: 800px">
+            <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="visuals/popular-pick-up-stations_byMon.html" height="600" width="100%"></iframe>
+        </span>
+        
+        <p>In terms of popular stations by user types, we found that more stations were used by Annual members in general, but more Casual members the stations along the lakeshore and on the edge of the share bike service territory.</p>
+        
+        <span style="float:left; width:100%; height: 800px">
+            <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="visuals/popular-pick-up-stations-by-user-type.html" height="600" width="100%"></iframe>
+        </span>
+        
+    <h2>Notes: Data cleaning & processing methods</h2>
+        
+    <li>Remove entries where Trip Duration = 0. These might be some errors or technical issues when the bikes were released.</li>
+        
+    <li>Convert start and end time into date format for easier extraction and calculation</li>
+        
+    <li>Calculate distance and average speed for each trip: not a very precise calcluation as the distance was not straightline between two points, and users were not constantly cycling, but we can still use it as a reference. In this calculation we excluded the round trips (same start and end station)</li>
+        
+    <h2>Codes</h2>
+    
+        <p> <a href="https://github.com/dailyLi/toronto_bike_share">Check the code files on GitHub</a> </p>
+        
+</body>
+    
+<style>
+ iframe {
+float: left;
+width: 100%;
+height: 700px;
+border-top-width: 0px;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+border-style: inset;
+border-color: initial;
+border-image: initial;
+}
+     
+</style>
+    
+</html>
+<!--
