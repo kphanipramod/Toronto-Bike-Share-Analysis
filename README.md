@@ -2,7 +2,7 @@ Official website: https://bikesharetoronto.com/
 
 ## Objective
 To better understand how people in Toronto are using Bike Share
-To highlight some usage patterns for potential and exsiting users (e.g. popular routes, rush hours, avg speed, etc.)
+and highlight some usage patterns for potential and existing users (e.g. popular routes, rush hours, avg speed, etc.)
 To generate insights for maintenance and management (e.g. allocating bikes, identify broken bikes & stations, etc.) - still working on it!
 
 ## Background
@@ -10,6 +10,7 @@ Bike Share Toronto was designed to allow users to make short trips around town. 
 
 There are two major user categories in the dataset:
 a) Annual Member: including Annual 30 Member (unlimited trips under 30 min) per year, and Annual 45 Member (unlimited trips under 45 min).
+
 b) Casual Member: including Single Trip Passes, Day Passes and 3-Day Passes.
 
 ## Data Sources:
