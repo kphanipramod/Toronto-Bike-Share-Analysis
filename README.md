@@ -14,7 +14,9 @@ b) Casual Member: including Single Trip Passes, Day Passes and 3-Day Passes.
 
 ## Data Sources:
 a) Bike Share Toronto Ridership Data from City of Toronto's Open Data Portal: https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/
+
 b) Bike Share stations profile in json file: https://tor.publicbikesystem.net/ube/gbfs/v1/en/station_information
+
 c) Daily weather data of 2021 at Toronto City weather station from Govt of Canada's website: https://climate.weather.gc.ca/historical_data/search_historic_data_e.html
 
 ## Results & Key Findings
