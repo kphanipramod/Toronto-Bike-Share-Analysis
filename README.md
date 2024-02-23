@@ -22,15 +22,15 @@ b) Bike Share stations profile in json file: https://tor.publicbikesystem.net/ub
 c) Daily weather data of 2021 at Toronto City weather station from Govt of Canada's website: https://climate.weather.gc.ca/historical_data/search_historic_data_e.html
 
 ## Results & Key Findings
-a) 3,474,290 trips in total
+- 3,474,290 trips in total
 
-b) Average trip duration: 1227.20 seconds (20.45 minutes)
+- Average trip duration: 1227.20 seconds (20.45 minutes)
 
-c) Average distance: 1813.00 metres
+- Average distance: 1813.00 metres
 
-d) Average speed: 2.28 m/s
+- Average speed: 2.28 m/s
 
-e) Annual Member trips: 2,075,217 (59.73%)
+- Annual Member trips: 2,075,217 (59.73%)
 
-f) Casual Member trips: 1,399,073 (40.27%)
+- Casual Member trips: 1,399,073 (40.27%)
 
