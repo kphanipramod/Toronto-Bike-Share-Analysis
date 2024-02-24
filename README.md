@@ -1,5 +1,7 @@
 Official website: https://bikesharetoronto.com/
 
+Dataset: https://www.kaggle.com/datasets/phani038/toronto-bike-share-dataset 
+
 ## Objective
 To better understand how people in Toronto are using Bike Share
 and highlight some usage patterns for potential and existing users (e.g. popular routes, rush hours, avg speed, etc.)
