@@ -28,3 +28,9 @@ There are two major user categories in the dataset:
 - August had the highest ridership in 2021, while February had the lowest
 - Summer months in general had higher ridership
 - Ridership has a positive correlation with temperature as revealed by scatter plot
+
+![Screen Shot 2024-03-07 at 17 39 07](https://github.com/kphanipramod/Toronto-Bike-Share-Analysis/assets/118381849/8bef9074-8ba9-40c0-8a44-b485328bdec4)
+
+![Screen Shot 2024-03-07 at 17 38 38](https://github.com/kphanipramod/Toronto-Bike-Share-Analysis/assets/118381849/5f9a0c28-cf4c-4c02-b5c5-87c1b8653312)
+
+
